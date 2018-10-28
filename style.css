@@ -1,0 +1,65 @@
+.main{
+	display:flex;
+}
+.main > article{
+    box-sizing: border-box;
+	
+	display:inline-block;
+	width:50%;
+	padding:0 30px;
+}
+article.list{
+	border-left: 1px solid black;
+	width:100%;
+}
+article.list > table {
+	width:100%;
+}
+article.create{
+	width:100%;
+}
+.h {
+	color:#008080;
+	text-align:center;
+}
+.btn{
+	color:#008080;
+	font-weight:700;
+	background:none;
+	cursor: pointer;
+	width:200px;
+	height: 30px;
+	border: 2px solid #008080;
+	border-radius: 15px;
+}
+.float{
+	float:right;
+}
+.btn1:hover{
+	background-color:#f2f2f2;
+}
+.btn1{
+	cursor: pointer;
+	border:none;
+	background:none;
+}	
+.in{
+	width:50%;
+	height:25px;
+	border: 1px solid #008080;
+    border-radius: 5px;	
+}
+.in1{
+	width:20%;
+	height:25px;
+	border: 1px solid #008080;
+    border-radius: 6px;	
+}
+.th{
+	text-align:left;
+	height:40px;
+	background-color:#f2f2f2;
+}
+.td{
+	height:40px;
+}
